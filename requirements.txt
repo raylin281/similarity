@@ -1,9 +1,10 @@
 jieba>=0.42.1
 numpy>=1.21.0
+flask>=2.0.0
 # 基础依赖
 
 # 深度学习相关依赖（用于语义相似度计算）
 transformers>=4.0.0
 torch>=1.7.0
 # sentence-transformers 是可选的，但推荐安装以获得更好的语义相似度效果
-# sentence-transformers>=2.0.0
+sentence-transformers>=2.0.0
